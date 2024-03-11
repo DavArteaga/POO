@@ -1,0 +1,19 @@
+package Ejercicios_Clase;
+
+public class Ejercicio_4 {
+
+    public static void main(String args[]) {
+        //Declarar Variables
+        int EdJuan = 9;
+        int EdAlber, EdAna, EdMama;
+        
+        //Operaciones
+        EdAlber = 2 * EdJuan / 3;
+        EdAna = 4 * EdJuan / 3;
+        EdMama = EdJuan + EdAlber + EdAna;
+        
+        //Imprimir en pantalla
+        System.out.println("Las edades son: Juan: "+EdJuan+" Alberto: "+EdAlber);
+        System.out.println("                Ana: "+EdAna+ " Mamá: "+EdMama);       
+    }
+}
